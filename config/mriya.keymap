@@ -31,7 +31,7 @@
   &kp GRAVE     &kp Q   &kp W         &kp F          &kp P      &kp B        &kp J      &kp L          &kp U               &kp Y                &kp SEMICOLON   &mt RIGHT_BRACKET LEFT_BRACKET
   &kp LEFT_ALT  &kp A   &kp R         &kp S          &kp T      &kp G        &kp M      &kp N          &kp E               &kp I                &kp O           &mt RALT SQT
   &kp LCTRL     &kp Z   &kp X         &kp C          &kp D      &kp V        &kp K      &kp H          &mt KP_MINUS COMMA  &mt EXCLAMATION DOT  &mt UNDER FSLH  &mt RCTRL BSLH
-                        &kp LEFT_WIN  &mt LSHFT TAB  &kp SPACE  &lt 1 RET    &lt 1 ESC  &kp BACKSPACE  &mt RSHIFT DEL      &tog 1
+                        &kp LEFT_WIN  &mt LSHFT TAB  &kp SPACE  &lt 1 RET    &lt 1 ESC  &kp BACKSPACE  &mt RSHIFT DEL      &to 1
             >;
         };
 
@@ -41,7 +41,7 @@
   &kp F1           &kp F2    &kp F3  &kp F4    &kp F5    &kp F6       &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
   &mt LALT PLUS    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &mt RALT MINUS
   &mt LCTRL EQUAL  &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &kp N6     &kp N7    &kp N8    &kp N9    &kp N0    &trans
-                             &tog 0  &trans    &trans    &trans       &trans     &trans    &trans    &tog 2
+                             &to 0   &trans    &trans    &trans       &trans     &trans    &trans    &to 2
             >;
         };
 
@@ -50,7 +50,7 @@
   &trans          &trans           &trans     &trans     &trans     &trans          &trans        &trans    &trans     &trans     &trans           &trans
   &kp KP_NUM      &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &kp SLCK         &kp CAPS
   &mt LALT EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS     &kp C_MUTE    &kp LEFT  &kp UP     &kp RIGHT  &kp INS          &mt RIGHT_ALT K_APP
-  &trans          &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT      &kp C_VOL_DN  &kp END   &kp DOWN   &kp PG_DN  &kp PAUSE_BREAK  &tog 3
+  &trans          &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT      &kp C_VOL_DN  &kp END   &kp DOWN   &kp PG_DN  &kp PAUSE_BREAK  &to 3
                                    &trans     &trans     &trans     &trans          &trans        &trans    &trans     &trans
             >;
         };
